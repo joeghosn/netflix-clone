@@ -39,11 +39,6 @@ useEffect(()=>{
       router.events.off('routeChangeComplete',handleRouteChange);
       router.events.off('routeChangeError', handleRouteChange)
   }
-  
-  
-
-  
-  
   },[router]);
 
 

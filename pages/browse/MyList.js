@@ -15,10 +15,7 @@ export async function getServerSideProps(context){
     if(!issuer){
       return{
     props:{},
-    redirect:{
-      desitination:'/login',
-      permanent:false,
-    } 
+ 
     
       }
     } 

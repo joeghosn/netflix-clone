@@ -24,10 +24,7 @@ const issuer= await verifyToken(cookie);
 if(!issuer){
   return{
 props:{},
-redirect:{
-  desitination:'/login',
-  permanent:false,
-} 
+
 
   }
 } 

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Card from '../card/card';
 
 
-const CardSection=({sectionTitle='Movies', movies, size})=>{
+const CardSection=({sectionTitle='Movies', movies=[], size})=>{
    
 return (
     <section className={styles.container}>
@@ -28,7 +28,7 @@ return (
             }
 
 {/* {cards} */}
-        </div>
+        </div>``
 
 
     </section>
